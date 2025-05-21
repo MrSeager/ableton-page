@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.cs-transition {
+    transition: .5s !important;
+}
+
+/*Image*/
+.cs-image {
+    width: 65px !important;
+}
+
+/*Buttons*/
+.cs-link:hover {
+    color: #f46c60 !important;
+}
+
+.cs-link-two {
+
+}
+
+/*Font*/
+.cs-fc-one {
+    color: #5253c1 !important;
+}
+
+.cs-fc-two {
+    color: #f46c60 !important;
+}
+
+.cs-fz-17 {
+    font-size: 17px !important;
+}
+
+.cs-fz-20 {
+    font-size: 20px !important;
+}
+
+.cs-fw-600 {
+    font-weight: 600 !important;
+}
+
+.cs-fw-700 {
+    font-weight: 700 !important;
+}
