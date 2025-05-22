@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 body {
     font-family: "Poppins", sans-serif !important;
@@ -6,6 +6,25 @@ body {
 
 .cs-transition {
     transition: .5s !important;
+}
+
+.cs-w-85 {
+    width: 85% !important;
+}
+
+/*Background*/
+.cs-bg-white {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.cs-bg-gradient {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 0) 0%, rgba(77, 145, 157, 0) 35%, rgba(251, 255, 168, 1) 35%, rgba(251, 255, 168, 1) 100%);
+}
+
+.cs-bg-gradient-two {
+    background: #B7FFC0;
+    background: linear-gradient(90deg, rgba(183, 255, 192, 1) 0%, rgba(183, 255, 192, 1) 65%, rgba(251, 255, 168, 0) 65%, rgba(251, 255, 168, 0) 100%);
 }
 
 /*Image*/
@@ -16,10 +35,6 @@ body {
 /*Buttons*/
 .cs-link:hover {
     color: #f46c60 !important;
-}
-
-.cs-link-two {
-
 }
 
 /*Font*/
@@ -39,10 +54,20 @@ body {
     font-size: 20px !important;
 }
 
+.cs-fw-500 {
+    font-weight: 500 !important;
+}
+
 .cs-fw-600 {
     font-weight: 600 !important;
 }
 
 .cs-fw-700 {
     font-weight: 700 !important;
+}
+
+@media (max-width: 991px) {
+    .cs-w-85 {
+        width: 100% !important;
+    }
 }
