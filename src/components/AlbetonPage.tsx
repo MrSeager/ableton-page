@@ -6,7 +6,7 @@ import NavBarSecond from './NavBarSecond.tsx';
 import AbletonBody from './AbletonBody.tsx';
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
-import { Container, Image, Nav, Navbar, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 //Axios
 import axios from 'axios';
 //Spring
@@ -19,6 +19,13 @@ const AlbetonPage: FC = () => {
             <NavBarOne />
             <NavBarSecond />
             <AbletonBody />
+            <Container fluid className='border-top py-5'>
+                <Row className='cs-w-80 mx-auto'>
+                    <Col xs={12}>
+                        <h3 className='display-2'>Albeton</h3>
+                    </Col>
+                </Row>
+            </Container>
         </Container>
     );
 }
