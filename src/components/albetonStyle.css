@@ -54,6 +54,17 @@ body {
     color: #f46c60 !important;
 }
 
+.cs-btn {
+    background-color: #0001fc !important;
+    border-color: #0001fc !important;
+}
+
+.cs-btn:hover {
+    color: #f46c60 !important;
+    background-color: transparent !important;
+    border-color: #f46c60 !important;
+}
+
 /*Font*/
 .cs-fc-one {
     color: #5253c1 !important;
@@ -61,6 +72,10 @@ body {
 
 .cs-fc-two {
     color: #f46c60 !important;
+}
+
+.cs-fz-14 {
+    font-size: 14px !important;
 }
 
 .cs-fz-17 {

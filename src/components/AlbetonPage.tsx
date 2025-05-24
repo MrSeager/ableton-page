@@ -4,6 +4,7 @@ import "./albetonStyle.css";
 import NavBarOne from './NavBarOne.tsx';
 import NavBarSecond from './NavBarSecond.tsx';
 import AbletonBody from './AbletonBody.tsx';
+import Footer from './Footer.tsx';
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -19,13 +20,7 @@ const AlbetonPage: FC = () => {
             <NavBarOne />
             <NavBarSecond />
             <AbletonBody />
-            <Container fluid className='border-top py-5'>
-                <Row className='cs-w-80 mx-auto'>
-                    <Col xs={12}>
-                        <h3 className='display-2'>Albeton</h3>
-                    </Col>
-                </Row>
-            </Container>
+            <Footer />
         </Container>
     );
 }
