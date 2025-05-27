@@ -16,7 +16,7 @@ import { useSpring, animated } from '@react-spring/web';
 
 const AlbetonPage: FC = () => {
     return (
-        <Container fluid className='px-0'>
+        <Container fluid className='px-0 '>
             <NavBarOne />
             <NavBarSecond />
             <AbletonBody />
