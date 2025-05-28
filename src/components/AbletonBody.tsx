@@ -17,9 +17,7 @@ import TenImg from '../images/pexels-kooldark-17382268.jpg';
 //Video
 import vidOne from '../video/855548-hd_1920_1080_25fps.mp4';
 //Spring
-import { useSpring, animated } from '@react-spring/web';
-//Observer
-import { useInView } from 'react-intersection-observer';
+import { animated } from '@react-spring/web';
 
 const AbletonBody: FC = () => {
     const animOne = useAnimatedInView();
@@ -38,7 +36,7 @@ const AbletonBody: FC = () => {
 
     return (
         <Container fluid className='px-0 mx-0 d-flex flex-column align-items-center gap-5'>  
-            <animated.div ref={animOne.ref} style={animOne.animation} className='container-fluid my-lg-5 position-relative py-0 px-5'>
+            <animated.div ref={animOne.ref} style={animOne.animation} className='container-fluid d-flex flex-column align-items-center my-lg-5 position-relative py-0 px-5'>
                 <Image fluid src={FirstImg} alt='Albeton' />
                 <h1 className='display-1 cs-fc-two cs-fw-700 position-absolute top-50 start-50 translate-middle'>Albeton</h1>
             </animated.div>
