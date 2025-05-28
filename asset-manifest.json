@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ableton-page/static/css/main.592910a8.css",
-    "main.js": "/ableton-page/static/js/main.c6d951c4.js",
+    "main.js": "/ableton-page/static/js/main.b42ff729.js",
     "static/js/453.d138629c.chunk.js": "/ableton-page/static/js/453.d138629c.chunk.js",
     "static/media/855548-hd_1920_1080_25fps.mp4": "/ableton-page/static/media/855548-hd_1920_1080_25fps.f35797916c3d9c635b74.mp4",
     "static/media/pexels-david-bares-42311-323687.jpg": "/ableton-page/static/media/pexels-david-bares-42311-323687.613120c5d6c1779a6091.jpg",
@@ -17,11 +17,11 @@
     "static/media/logo.png": "/ableton-page/static/media/logo.4091feedf4393e483121.png",
     "index.html": "/ableton-page/index.html",
     "main.592910a8.css.map": "/ableton-page/static/css/main.592910a8.css.map",
-    "main.c6d951c4.js.map": "/ableton-page/static/js/main.c6d951c4.js.map",
+    "main.b42ff729.js.map": "/ableton-page/static/js/main.b42ff729.js.map",
     "453.d138629c.chunk.js.map": "/ableton-page/static/js/453.d138629c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.592910a8.css",
-    "static/js/main.c6d951c4.js"
+    "static/js/main.b42ff729.js"
   ]
 }
