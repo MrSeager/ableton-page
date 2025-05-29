@@ -16,11 +16,13 @@ import { useSpring, animated } from '@react-spring/web';
 
 const AlbetonPage: FC = () => {
     return (
-        <Container fluid className='px-0 '>
-            <NavBarOne />
-            <NavBarSecond />
-            <AbletonBody />
-            <Footer />
+        <Container fluid className='p-0 bg-light'>
+            <Container className='px-0 cs-w-1920 shadow bg-white'>
+                <NavBarOne />
+                <NavBarSecond />
+                <AbletonBody />
+                <Footer />
+            </Container>
         </Container>
     );
 }

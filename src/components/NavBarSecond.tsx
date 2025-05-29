@@ -7,7 +7,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 
 const NavBarSecond: FC = () => {
     return (
-        <Navbar sticky="top" className='cs-bg-white px-3 py-3 mt-1 py-0'>
+        <Navbar sticky="top" className='border-top cs-bg-white px-3 py-3 mt-0 py-0 mx-0'>
             <Nav className='w-100'>
                 <Nav.Item>
                     <Nav.Link href='' className='cs-link cs-transition text-black'>About</Nav.Link>

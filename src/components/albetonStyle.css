@@ -8,6 +8,10 @@ body {
     transition: .5s !important;
 }
 
+.cs-w-1920 {
+    max-width: 1920px !important;
+}
+
 .cs-w-80 {
     width: 80% !important;
 }
